@@ -59,7 +59,7 @@ Hubungkan myQuery.js
 <script src="myQuery.js" type="text/javascript" charset="utf-8"></script>
 ```
 Syntax Dasar
-```html
+```javascript
 $('#myDiv').html('New Content');
 ```
 HTML 
@@ -157,9 +157,9 @@ HTML
     </div>
     <script>
         // Panggil fungsi $ setelah semua elemen dimuat
-        window.onload = function() {
+        $.ready(function() {
             $('#contoh').addClass('kelasbaru');
-        };
+        )};
     </script>
 </body>
 </html>
@@ -341,3 +341,22 @@ $.ready = function(callback) {
     }
 };
 ```
+## Contoh penggunaan $(document).ready()
+Syntax Dasar 
+```javascript
+$.ready(function() {});
+```
+cara menggunakan :: Setelah Dokumen di muat, jalankan fungsi 
+```javascript
+$.ready(function() {
+    $('#myDiv').html('New Content');
+});
+```
+```javascript
+$.ready(function() {
+    $('#contoh').addClass('kelasbaru');
+});
+```
+#### Mencoba Myqr.js sebuah Library Javascript mirip JQuery 
+[Coba Myqr.js]()
+###### Author by Nelsen Niko 
