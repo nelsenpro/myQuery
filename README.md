@@ -357,6 +357,8 @@ $.ready(function() {
     $('#contoh').addClass('kelasbaru');
 });
 ```
-#### Mencoba Myqr.js sebuah Library Javascript mirip JQuery 
-[Coba Myqr.js]()
-###### Author by Nelsen Niko 
+###### Mencoba Myqr.js sebuah Library Javascript mirip JQuery 
+[Coba Myqr.js](https://github.com/nelsenpro/myqr)
+###### Mencoba CodeCanvas.js sebuah Runtime.js, memungkinkan kamu menulis css dan javascript dalam tag <cc>...</cc>
+[Coba CC.js](https://github.com/nelsenpro/cc)
+#### Author by Nelsen Niko 
