@@ -357,6 +357,81 @@ $.ready(function() {
     $('#contoh').addClass('kelasbaru');
 });
 ```
+### Pengaturan CSS dengan Javascript 
+Paragraf 
+```javascript
+$.ready(function() {
+    $('#myParagraph').css({
+        fontSize: '24px',
+        padding: '10px 20px',
+        color: '#3fa',
+        backgroundColor: '#333'
+    });
+});
+```
+Button 
+```javascript
+$.ready(function() {
+    $('#myButton').css({
+        padding: '10px 20px',
+        fontSize: '16px',
+        backgroundColor: '#444',
+        color: '#3fa',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer'
+    });
+});
+```
+Contoh HTML
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh CSS dengan JavaScript</title>
+    <script src="myQuery.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <button id="myButton1">Ini adalah button 1</button>
+    <button id="myButton2">Ini adalah button 2</button>
+    <p id="myParagraph">
+        Ini adalah sebuah paragraf.
+    </p>
+    <script>
+        $.ready(function() {
+            $('#myParagraph').css({
+                fontSize: '24px',
+                padding: '10px 20px',
+                color: '#3fa',
+                backgroundColor: '#333'
+            });
+
+            $('#myButton1').css({
+                padding: '10px 20px',
+                fontSize: '16px',
+                backgroundColor: '#444',
+                color: '#3fa',
+                border: 'none',
+                borderRadius: '5px',
+                cursor: 'pointer'
+            });
+
+            $('#myButton2').css({
+                padding: '12px 24px',
+                fontSize: '18px',
+                backgroundColor: '#17a2b8',
+                color: '#fff',
+                border: '2px solid #3fa',
+                borderRadius: '8px',
+                cursor: 'pointer'
+            });
+        });
+    </script>
+</body>
+</html>
+```
 ###### Mencoba Myqr.js sebuah Library Javascript mirip JQuery 
 [Coba Myqr.js](https://github.com/nelsenpro/myqr)
 ###### Mencoba CodeCanvas.js sebuah Runtime.js, memungkinkan kamu menulis css dan javascript dalam tag <cc>...</cc>
