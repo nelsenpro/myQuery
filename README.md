@@ -87,15 +87,15 @@ HTML
 ### Menambah method ke dua (addClass)
 ```javascript
 addClass: function(className) {
-                try {
-                    if (className) {
-                        this.element.classList.add(className);
-                    }
-                    return this;
-                } catch (error) {
-                    console.error('Error in addClass method:', error);
-                }
-            },
+    try {
+        if (className) {
+            this.element.classList.add(className);
+        }
+        return this;
+    } catch (error) {
+        console.error('Error in addClass method:', error);
+    }
+},
 ```
 ### jadi begini 
 ```javascript
