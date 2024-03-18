@@ -432,8 +432,8 @@ Contoh HTML
 </body>
 </html>
 ```
-###### Mencoba Myqr.js sebuah Library Javascript mirip JQuery 
+###### Mencoba Myqr.js, sebuah Library Javascript mirip JQuery 
 [Coba Myqr.js](https://github.com/nelsenpro/myqr)
-###### Mencoba CodeCanvas.js sebuah Runtime.js, memungkinkan kamu menulis css dan javascript dalam tag <cc>...</cc>
+###### Mencoba CodeCanvas.js, sebuah Runtime.js, memungkinkan kamu menulis css dan javascript dalam tag selain style dan script, yaitu dalam tag cc
 [Coba CC.js](https://github.com/nelsenpro/cc)
 #### Author by Nelsen Niko 
