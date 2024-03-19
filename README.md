@@ -432,6 +432,10 @@ Contoh HTML
 </body>
 </html>
 ```
+### CDN
+```html
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/myQuery/myQuery.js" type="text/javascript" charset="utf-8"></script>
+```
 ###### Mencoba Myqr.js, sebuah Library Javascript mirip JQuery 
 [Coba Myqr.js](https://github.com/nelsenpro/myqr)
 ###### Mencoba CodeCanvas.js, sebuah Runtime.js, memungkinkan kamu menulis css dan javascript dalam tag selain style dan script, yaitu dalam tag cc
