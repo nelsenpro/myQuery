@@ -53,10 +53,14 @@ function $(selector) {
 }
 ```
 ### contoh html
-Hubungkan myQuery.js
+Hubungkan myQuery.js langsung 
 ```html
 <!-- Memasukkan file JavaScript myQuery library -->
 <script src="myQuery.js" type="text/javascript" charset="utf-8"></script>
+```
+atau Hubungkan dengan CDN
+```html
+<script src="https://cdn.jsdelivr.net/gh/nelsenpro/myQuery/myQuery.js" type="text/javascript" charset="utf-8"></script>
 ```
 Syntax Dasar
 ```javascript
@@ -431,10 +435,6 @@ Contoh HTML
     </script>
 </body>
 </html>
-```
-### CDN
-```html
-<script src="https://cdn.jsdelivr.net/gh/nelsenpro/myQuery/myQuery.js" type="text/javascript" charset="utf-8"></script>
 ```
 ###### Mencoba Myqr.js, sebuah Library Javascript mirip JQuery 
 [Coba Myqr.js](https://github.com/nelsenpro/myqr)
